@@ -1,0 +1,15 @@
+{
+    "name": "Support",
+    "slug": "Support_alfiory__930442654",
+    "version": "1.0.3",
+    "id": "930442654",
+    "author": [
+        "Alfiory"
+    ],
+    "description": "Utilisez un support simple et de qualité ",
+    "aliases": "support_alfiory",
+    "providers": [
+        "Extensions\\Plugins\\Support_alfiory__930442654\\Providers\\SupportServiceProvider",
+        "Extensions\\Plugins\\Support_alfiory__930442654\\Providers\\EventServiceProvider"
+    ]
+}

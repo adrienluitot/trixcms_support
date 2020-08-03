@@ -1,0 +1,139 @@
+/* CSS for the plugin SUPPORT [Admin part] */
+
+/* GENERAL */
+.label {
+    background: #aaa;
+    color: #fff;
+    padding: .2rem .5rem;
+    border-radius: 5rem;
+    font-size: .85rem;
+}
+.tag {
+    background: #aaa;
+    color: #eee;
+    padding: .15rem .3rem;
+    border-radius: .4rem;
+    font-size: .8rem;
+    margin-right: .5rem;
+}
+.tag a.delete-tag {
+    display: none;
+    margin-left: .3rem;
+}
+.tag:hover a.delete-tag {
+    display: inline-block;
+}
+label {
+    cursor: pointer;
+}
+label:not([for]) {
+    cursor: text;
+}
+
+a {
+    cursor: pointer;
+}
+
+#support-categories-list a.delete-category,
+#support-tickets-list a.delete-ticket {
+    color: tomato;
+}
+
+
+/* CATEGORIES */
+#support-categories-list tr {
+    transition: opacity .5s;
+    opacity: 1;
+
+}
+#support-categories-list tr.disabled {
+    opacity: .15;
+}
+
+#support-categories-list a {
+    margin: 0 .25rem;
+}
+
+#edit-category-title {
+    font-style: italic;
+}
+
+
+/* TICKETS */
+table.dataTable thead th {
+    border-bottom: solid 5px #e3e6f0;
+}
+table.dataTable.no-footer {
+    border-bottom: solid 1px #e3e6f0;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: transparent;
+}
+
+#support-tickets-list_wrapper {
+    padding: .3rem .5rem;
+}
+#support-tickets-list {
+    border-collapse: collapse !important;
+}
+#support-tickets-list a {
+    margin: 0 .25rem;
+}
+#support-tickets-list a.archive-ticket {
+    color: #f1892d;
+}
+#support-tickets-list td {
+    border: none;
+}
+
+#support-tickets-list tbody tr {
+    border-top: 1px solid #e3e6f0;
+    font-weight: 800;
+}
+#support-tickets-list .read-ticket {
+    font-weight: 300;
+}
+#support-tickets-list .read-ticket * {
+    opacity: .9;
+}
+#support-tickets-list .closed-ticket td {
+    opacity: .35;
+    font-weight: normal;
+}
+#support-tickets-list .closed-ticket td:last-child {
+    opacity: .4;
+}
+
+#support-tickets-list_paginate li {
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0;
+}
+#support-tickets-list_paginate li a {
+    margin: 0 .2rem;
+}
+
+
+
+/* VIEW TICKET */
+.ticket-messages .ticket-message {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: .75rem;
+    background: #4b71dd;
+    color: #eee;
+
+}
+.ticket-messages .ticket-message.admin {
+    background: #ddd;
+    color: #666;
+}
+.ticket-messages .ticket-message p {
+    margin: 0;
+}
+.ticket-messages .ticket-message small { color: #bbb; }
+.ticket-messages .ticket-message.admin small { color: #a5a5a5; }
+.ticket-messages .ticket-message p:first-child {
+    margin-bottom: .25rem;
+}

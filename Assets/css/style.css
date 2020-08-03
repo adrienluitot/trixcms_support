@@ -1,0 +1,64 @@
+/* CSS for the plugin SUPPORT [User part] */
+
+/* GENERAL */
+.label {
+    background: #aaa;
+    color: #fff;
+    padding: .2rem .5rem;
+    border-radius: 5rem;
+}
+label {
+    cursor: pointer;
+}
+label:not([for]) {
+    cursor: text;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* HOME */
+.support-container {
+    color: #fff;
+    padding: 2.5rem 0;
+}
+
+.support-container .table {
+    color: #fff;
+}
+
+table a {
+    margin: 0 .25rem;
+}
+
+tr.read {
+    opacity: .6;
+}
+
+/* TICKET */
+.ticket-message {
+    padding: 1rem 1.75rem;
+    background: #521726;
+    border-radius: .75rem;
+    margin-bottom: 1.5rem;
+}
+.ticket-message.owner {
+    background: #ddd;
+    color: #333;
+}
+
+.ticket-message p {
+    margin: 0;
+}
+.ticket-message p:first-child {
+    margin-bottom: .5rem;
+}
+
+.ticket-message .message-posted-date {
+    font-size: .9rem;
+    color: #aaa;
+}
+.ticket-message.owner .message-posted-date {
+    color: #666;
+}
