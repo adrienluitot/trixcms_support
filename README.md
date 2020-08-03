@@ -1,7 +1,7 @@
 # TrixCMS' Support plugin
 It's a plugin that implement a complete support system for the multigaming CMS TrixCMS.
 
-## A bug ? A suggestion ?
+## A bug ? A suggestion ?
 
 If you have any bug or any suggestion, you can create an issue and explain what you have and/or what you want.
 
